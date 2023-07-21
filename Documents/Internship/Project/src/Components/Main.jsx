@@ -140,8 +140,9 @@ function Main() {
           Contributions Overtime
         </Text>
         <HStack
-          height={{ base: "15em", lg: "90%" }}
-          w={{ base: "90vw", lg: "80%" }}
+          mt={{ base: "-20px", lg: "0" }}
+          height={{ base: "14em", lg: "90%" }}
+          w={{ base: "90vw", lg: "90%" }}
         >
           <Try />
         </HStack>
