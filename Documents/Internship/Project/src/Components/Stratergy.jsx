@@ -14,8 +14,9 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import React from "react";
-import image from "../assets/wave.png";
+
 import { MdArrowForwardIos } from "react-icons/md";
+
 // MdArrowForwardIos;
 
 function Stratergy() {
@@ -143,15 +144,6 @@ function Stratergy() {
           </Text>
         </Stack>
       </Stack>
-      {/* <Image
-        src={image}
-        boxSize="50px"
-        width={"300px"}
-        objectFit="cover"
-        position={"fixed"}
-        right={0}
-        bottom={0}
-      /> */}
     </Stack>
   );
 }

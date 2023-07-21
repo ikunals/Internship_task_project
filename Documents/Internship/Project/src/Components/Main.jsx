@@ -16,6 +16,7 @@ import { AiOutlineCaretDown } from "react-icons/ai";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import "./custom.css";
+import { Try } from "./Try";
 
 function Main() {
   const percentage = 78;
@@ -143,7 +144,7 @@ function Main() {
           height={{ base: "16em", lg: "90%" }}
           w={{ base: "95%", lg: "80%" }}
         >
-          <Barchart chartData={userData} />
+          <Try />
         </HStack>
       </Stack>
       <Stack ml={{ base: "30px", lg: "40px" }} mt={{ base: "-30px", lg: "0" }}>
