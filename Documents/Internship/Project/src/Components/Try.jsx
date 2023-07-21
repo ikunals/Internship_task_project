@@ -61,5 +61,5 @@ export const data = {
 };
 
 export function Try() {
-  return <Bar options={options} data={data} />;
+  return <Bar height={"50vh"} width={"70vw"} options={options} data={data} />;
 }

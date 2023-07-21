@@ -11,7 +11,6 @@ import {
   VStack,
 } from "@chakra-ui/react";
 import { UserData } from "./data";
-import Barchart from "./Barchart";
 import { AiOutlineCaretDown } from "react-icons/ai";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
@@ -141,13 +140,13 @@ function Main() {
           Contributions Overtime
         </Text>
         <HStack
-          height={{ base: "16em", lg: "90%" }}
-          w={{ base: "95%", lg: "80%" }}
+          height={{ base: "15em", lg: "90%" }}
+          w={{ base: "90vw", lg: "80%" }}
         >
           <Try />
         </HStack>
       </Stack>
-      <Stack ml={{ base: "30px", lg: "40px" }} mt={{ base: "-30px", lg: "0" }}>
+      <Stack ml={{ base: "30px", lg: "40px" }} mt={{ base: "0", lg: "0" }}>
         <HStack>
           <Text fontWeight={"bold"} fontSize={{ base: "lg" }}>
             How do I compare to my peers?
